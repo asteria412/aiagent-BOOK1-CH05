@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>신상 정보 입력</h1>
+    <form action="/join" method="post">
+        <p>성명: <input type="text" name="name" required value="이순신"></p>
+        <p>주소: <input type="text" name="address" required value="한산도"></p>
+        <p>전화번호: <input type="text" name="phone" required value="010-1111-1111"></p>
+        <p>이메일<input type="text" name="email" required value="lee@sunsin.com"></p>
+        <p>나이: <input type="text" name="age" required value="35"></p>
+        <p>성별: <select name="gender" id="">
+            <option value="">선택</option>
+            <option value="남" selected>남성 </option>
+            <option value="여">여성</option>
+            <option value="기타">기타</option>
+        </select></p>
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>
